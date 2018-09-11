@@ -26,7 +26,7 @@
     <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="#"><img src=""> Lapė</a>
+        <a class="navbar-brand" href="#"><img src=""><img src="{{asset('publick/lapes_foto/41473094_1912568975479303_2497711473342545920_n.jpg')}}"> Lapė</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -78,7 +78,7 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="First slide">
+                <img class="d-block img-fluid" src="{{asset('storage/41500292_291617328327352_5212547201493893120_n.jpg')}}" width="900px" height="350px" alt="First slide">
               </div>
               <div class="carousel-item">
                 <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
@@ -210,7 +210,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Lapė 2018</p>
       </div>
       <!-- /.container -->
     </footer>
