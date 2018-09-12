@@ -28,7 +28,8 @@
     <!-- Navigation -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-        <a class="navbar-brand" href="#"><img src=""><img src="{{asset('publick/lapes_foto/41473094_1912568975479303_2497711473342545920_n.jpg')}}"> Lapė</a>
+          <!-- IMAGE -->
+        <a class="navbar-brand" href="#"><img src=""><img src="{{asset('public/lapes_foto/41473094_1912568975479303_2497711473342545920_n.jpg')}}" width="100px" height="100px"> Lapė</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -80,7 +81,9 @@
             </ol>
             <div class="carousel-inner" role="listbox">
               <div class="carousel-item active">
-                <img class="d-block img-fluid" src="{{asset('storage/41500292_291617328327352_5212547201493893120_n.jpg')}}" width="900px" height="350px" alt="First slide">
+
+                <!-- IMAGE -->
+                <img class="d-block img-fluid" src="{{asset('public/41500292_291617328327352_5212547201493893120_n.jpg')}}" width="900px" height="350px" alt="Rankinukas">
               </div>
               <div class="carousel-item">
                 <img class="d-block img-fluid" src="http://placehold.it/900x350" alt="Second slide">
