@@ -13,10 +13,10 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+    <!-- Custom styles for this template
     <link href="css/shop-item.css" rel="stylesheet">
 
-  </head>
+  </head> -->
 
   <body>
 
@@ -30,7 +30,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="{{route('lape')}}">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>

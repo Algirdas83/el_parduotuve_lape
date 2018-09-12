@@ -18,6 +18,8 @@
 
     <!-- Custom styles for this template -->
     <link href="css/shop-homepage.css" rel="stylesheet">
+    <!-- Custom styles for this template item template -->
+    <link href="css/shop-item.css" rel="stylesheet">
 
   </head>
 
