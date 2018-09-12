@@ -61,7 +61,7 @@
 
         <div class="col-lg-3">
 
-          <h1 class="my-4">The Fox, Lapė</h1>
+          <h1 class="my-4"> Lapė Snapė</h1>
           <div class="list-group">
             <a href="{{route('product.index')}}" class="list-group-item list-group-item-action list-group-item-warning">Rankinukai </a>
             <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Maikės </a>
