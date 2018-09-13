@@ -12,13 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('layouts.index');
+    return view('layouts.app');
 });
 
 Auth::routes();
 
-//Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/lape', 'HomeController@index')->name('lape');
+Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/index',  'ProductControler@index')->name('product.index'); 
+Route::get('/show', 'ProductControler@show')->name('product.show');
     

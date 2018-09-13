@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Product;
 
 class ProductControler extends Controller
 {
@@ -13,8 +14,15 @@ class ProductControler extends Controller
      */
     public function index()
     {
-        //
-        return view('products.index');
+        
+        //return view('products.index');
+          $products = Product::all();
+
+         return view('products.index', ['product' => $products]);
+
+        // // $allOwners = Owner::where('id', $id)->get();
+        //  //products.index yra nuoroda i faila kuriame yra indeksas = katalogas product/index failas
+        // return view('layouts.lape',['prod' => $product]);
     }
 
     /**
@@ -36,6 +44,7 @@ class ProductControler extends Controller
     public function store(Request $request)
     {
         //
+       
     }
 
     /**
@@ -47,6 +56,11 @@ class ProductControler extends Controller
     public function show($id)
     {
         //
+         //$product = Product::find($id);
+
+        // $allOwners = Owner::where('id', $id)->get();
+         //products.index yra nuoroda i faila kuriame yra indeksas = katalogas product/index failas
+       // return view('products.index',['prod' => $product]);
     }
 
     /**
